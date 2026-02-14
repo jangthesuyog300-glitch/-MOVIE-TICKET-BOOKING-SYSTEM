@@ -1,4 +1,4 @@
-# 🎬 Movie Ticket Booking System – CDAC 2025
+# 🎬 Movie Ticket Booking System 
 
 A full-stack **Movie Ticket Booking System** inspired by platforms like BookMyShow.  
 Built using **Spring Boot 3, React 19 (Vite), SQL Server, AWS S3, and Razorpay**.
