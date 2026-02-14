@@ -1,0 +1,150 @@
+/* ================= PAGE ================= */
+.seat-page {
+  padding-bottom: 90px;
+}
+
+/* ================= SEAT COUNT MODAL ================= */
+.seat-count-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.seat-count-modal {
+  background: #fff;
+  width: 360px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.seat-count-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.seat-count-options button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #f84464;
+  background: white;
+  color: #f84464;
+  cursor: pointer;
+}
+
+.seat-count-options button:hover {
+  background: #f84464;
+  color: #fff;
+}
+
+.seat-count-confirm {
+  width: 100%;
+  background: #f84464;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ================= SCREEN ================= */
+.screen-wrapper {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.screen-curve {
+  width: 60%;
+  height: 20px;
+  margin: auto;
+  background: linear-gradient(to right, #cfd9df, #e2ebf0);
+  border-radius: 0 0 80px 80px;
+}
+
+.screen-text {
+  font-size: 12px;
+  color: #888;
+  margin-top: 6px;
+}
+
+/* ================= SEAT LAYOUT ================= */
+.seat-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 20px;
+}
+
+.seat-row {
+  display: flex;
+  align-items: center;
+}
+
+.row-name {
+  width: 35px;
+  font-weight: bold;
+  color: #666;
+}
+
+.row-seats {
+  display: flex;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+/* ================= SEAT ================= */
+.seat {
+  width: 28px;
+  height: 28px;
+  font-size: 11px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.seat-available {
+  border: 1px solid #4caf50;
+  color: #4caf50;
+}
+
+.seat-selected {
+  background: #4caf50;
+  color: white;
+}
+
+.seat-booked {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* ================= FOOTER ================= */
+.seat-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #ddd;
+}
+
+.book-now-btn {
+  background: #f84464;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}

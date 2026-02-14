@@ -1,0 +1,21 @@
+.page {
+  padding: 20px;
+  background: var(--bg);
+  min-height: calc(100vh - 120px);
+}
+
+.flex {
+  display: flex;
+  gap: 12px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+}
